@@ -1,6 +1,6 @@
-QT       += core gui
+QT       += core gui sql
 
-greaterThan(QT_MAJOR_VERSION, 4): QT += widgets
+greaterThan(QT_MAJOR_VERSION, 4): QT += widgets network
 
 CONFIG += c++11
 
@@ -15,17 +15,47 @@ DEFINES += QT_DEPRECATED_WARNINGS
 # You can also select to disable deprecated APIs only up to a certain version of Qt.
 #DEFINES += QT_DISABLE_DEPRECATED_BEFORE=0x060000    # disables all the APIs deprecated before Qt 6.0.0
 
+
+INCLUDEPATH +=  D:/FutureSrcInc/opencv/opencv-build/install/include
+INCLUDEPATH +=  D:/FutureSrcInc/opencv/opencv-build/install/include/opencv
+INCLUDEPATH +=  D:/FutureSrcInc/opencv/opencv-build/install/include/opencv2
+
+INCLUDEPATH +=  D:/FutureSrcInc/SeetaFace/SeetaFace2/include
+INCLUDEPATH +=  D:/FutureSrcInc/SeetaFace/SeetaFace2/include/seeta
+
+LIBS +=         D:/FutureSrcInc/opencv/opencv-build/install/x64/mingw/lib/libopencv*
+LIBS +=         D:/FutureSrcInc/SeetaFace/SeetaFace2/lib/libSeeta*.a
+
+
 SOURCES += \
+    logger.cpp \
+    logger.cpp \
     main.cpp \
-    mainwindow.cpp
+    mainwindow.cpp \
+    qface.cpp \
+    querywindow.cpp \
+    registerwindow.cpp
 
 HEADERS += \
-    mainwindow.h
+    logger.h \
+    logger.h \
+    mainwindow.h \
+    qface.h \
+    querywindow.h \
+    registerwindow.h
 
 FORMS += \
-    mainwindow.ui
+    mainwindow.ui \
+    querywindow.ui \
+    registerwindow.ui
 
 # Default rules for deployment.
 qnx: target.path = /tmp/$${TARGET}/bin
 else: unix:!android: target.path = /opt/$${TARGET}/bin
 !isEmpty(target.path): INSTALLS += target
+
+
+
+
+
+
