@@ -227,7 +227,7 @@ background-color: rgba(255, 255, 255, 0);</string>
            </size>
           </property>
           <property name="styleSheet">
-           <string notr="true">font: 18pt &quot;Songti SC&quot;;
+           <string notr="true">font: 18pt &quot;Microsoft YaHei&quot;;
 border: none;
 background-color: rgba(49, 50, 54, 0);
 color: rgb(255,255,255)</string>
