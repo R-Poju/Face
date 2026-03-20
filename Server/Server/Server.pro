@@ -29,7 +29,6 @@ LIBS +=         D:/FutureSrcInc/SeetaFace/SeetaFace2/lib/libSeeta*.a
 
 SOURCES += \
     logger.cpp \
-    logger.cpp \
     main.cpp \
     mainwindow.cpp \
     qface.cpp \
@@ -37,7 +36,6 @@ SOURCES += \
     registerwindow.cpp
 
 HEADERS += \
-    logger.h \
     logger.h \
     mainwindow.h \
     qface.h \

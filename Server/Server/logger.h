@@ -1,5 +1,5 @@
-#ifndef LOGGER_HPP
-#define LOGGER_HPP
+#ifndef LOGGER_H
+#define LOGGER_H
 
 #include <QObject>
 #include <QWidget>
@@ -22,4 +22,4 @@ private:
     QString fmtLog(const QString &msg, LogLevel level, const QString &category);
 };
 
-#endif // LOGGER_HPP
+#endif

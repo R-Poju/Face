@@ -5,7 +5,7 @@
 
 
 Logger::Logger(QObject *parent) :
-    QObject{parent}
+    QObject{ parent }
 {
 }
 

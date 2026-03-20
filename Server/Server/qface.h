@@ -1,5 +1,5 @@
-#ifndef QFACE_HPP
-#define QFACE_HPP
+#ifndef QFACE_H
+#define QFACE_H
 
 #include <QObject>
 #include <FaceEngine.h>

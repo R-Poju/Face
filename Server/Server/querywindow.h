@@ -1,5 +1,5 @@
-#ifndef QUERYWINDOW_HPP
-#define QUERYWINDOW_HPP
+#ifndef QUERYWINDOW_H
+#define QUERYWINDOW_H
 
 #include <QWidget>
 #include <QSqlTableModel>

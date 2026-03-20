@@ -1,5 +1,5 @@
-#ifndef REGISTERWINDOW_HPP
-#define REGISTERWINDOW_HPP
+#ifndef REGISTERWINDOW_H
+#define REGISTERWINDOW_H
 
 #include <QTimer>
 #include <QWidget>
